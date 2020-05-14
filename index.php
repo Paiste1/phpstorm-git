@@ -8,8 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-
-пишем дату старую 15.05.2020 00:00
+ну здесь дата уже будет новая <?php echo date('d-m-Y 03:i'); ?>
 
 </body>
 </html>
