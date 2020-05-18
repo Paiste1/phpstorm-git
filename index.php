@@ -1,15 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+<?php
+$str = simplexml_load_file('simple.xml');
 
-пишем дату старую 15.05.2020 00:00
+echo '<pre>';
+var_dump($str);
 
-</body>
-</html>
+/*$xml = new SimpleXMLElement($str);
+
+echo $xml->name; //выведет 'Коля'
+echo $xml->age; //выведет 25
+echo $xml->salary; //выведет 1000*/
